@@ -1,6 +1,6 @@
 const express = require("express");
 const { Server } = require("socket.io");
-const http = require("http");
+const { createServer } = require("http");
 const { Socket } = require("dgram");
 const app = express();
 const getUserDetailFromToken = require("../helper/getUserDetailFromToken");
